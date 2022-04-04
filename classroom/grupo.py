@@ -24,6 +24,10 @@ class Grupo:
             self.listadoAlumnos = lista
         else:
             self.listadoAlumnos =lista+[alumno]
+            
+     @ classmethod
+    def asignarNombre(cls, nombre=None):
+        cls.grado ="Grado 6"
 
     @ classmethod
     def asignarNombre(cls, nombre="Grado 10"):
