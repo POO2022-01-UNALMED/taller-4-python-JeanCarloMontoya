@@ -1,5 +1,5 @@
 from classroom.asignatura import Asignatura
-from classroom.asignatura import Asignatura
+
 
 
 class Grupo:
@@ -25,7 +25,7 @@ class Grupo:
         else:
             self.listadoAlumnos =lista+[alumno]
             
-     @ classmethod
+    @ classmethod
     def asignarNombre(cls, nombre=None):
         cls.grado ="Grado 6"
 
