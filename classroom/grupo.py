@@ -1,4 +1,4 @@
-from asignatura import Asignatura
+
 
 
 class Grupo:
